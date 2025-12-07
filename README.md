@@ -652,3 +652,5 @@ ORDER BY
 ### Conclusão
 
 Este sistema foi pensado para uso no dia a dia, usando de base uma papelaria e focando nas necessidades reais de armazenamento e pesquisa de dados. Foi definido o que guardar usando a Modelagem inicial, validando a integridade das tabelas e suas relações, garantindo que tudo se conecta. Além disso, os testes CRUD e as consultas complexas de foram usadas para testar na prática o funcionamento do banco e garantir que entrege os relatórios essenciais das pesquisas, simplificando de vez o processo de venda, rastreio de estoque e controle de prejuízo.
+
+<li>Feito por Rafael Silva Machado</li>
