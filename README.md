@@ -8,7 +8,7 @@
    
    ![Modelo_Conceitual-DER - Page 1](https://github.com/user-attachments/assets/ab13c323-8b22-41cb-89a0-08ab538d8977)
 
-     O primeiro passo após decidir o cenário foi usar o LucidChart para fazer o modelo conceitual, onde define-se as tabelas principais e suas interações com as cardinalidades para no próximo passo transformá-las em novas tabelas.
+O primeiro passo após decidir o cenário foi usar o LucidChart para fazer o modelo conceitual, onde define-se as tabelas principais e suas interações com as cardinalidades para no próximo passo transformá-las em novas tabelas.
 
 3. Modelagem Lógica MER
    
@@ -30,7 +30,7 @@
   .Criando As tabelas principais
 
   .Funcionários
-  
+  '''
   CREATE TABLE papelaria.funcionario (
     id_funcionario SERIAL PRIMARY KEY,
     nome_funcionario varchar(30) NOT NULL,
@@ -72,7 +72,7 @@
     FOREIGN KEY (id_funcionario) REFERENCES papelaria.funcionario(id_funcionario), 
     FOREIGN KEY (id_fornecedor) REFERENCES papelaria.fornecedor(id_fornecedor)
   );
+'''
 
-[Criando_Tabelas.txt](https://github.com/user-attachments/files/24018699/Criando_Tabelas.txt)
 
 
