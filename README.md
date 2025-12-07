@@ -8,16 +8,16 @@
    
    ![Modelo_Conceitual-DER - Page 1](https://github.com/user-attachments/assets/ab13c323-8b22-41cb-89a0-08ab538d8977)
 
-    O primeiro passo após decidir o cenário foi usar o LucidChart para fazer o modelo conceitual, onde define-se as tabelas principais e suas interações com as cardinalidades para no próximo passo transformá-las em novas tabelas.
+     O primeiro passo após decidir o cenário foi usar o LucidChart para fazer o modelo conceitual, onde define-se as tabelas principais e suas interações com as cardinalidades para no próximo passo transformá-las em novas tabelas.
 
 3. Modelagem Lógica MER
    
    <img width="7563" height="4680" alt="Modelo-Logico-MER - Página 1" src="https://github.com/user-attachments/assets/1e83d60d-fdf2-4734-a1e7-82454b28cfbe" />
 
-     O segundo passo é transformar o DER no modelo lógico, que possuem as Primary Keys PK e Foreign Keys FK que são necessárias para dizer quais tabelas interagem entre si, e dessa maneira acaba criando mais tabelas como a de "entrada" que nasce da relação entre a tabela
-   "funcionario" e "produtos" por exemplo, além do tipo que cada atributo do DER terá na modelagem física (varchar, char, date, entre outros).
+     O segundo passo é transformar o DER no modelo lógico, que possuem as Primary Keys PK e Foreign Keys FK que são necessárias para dizer quais tabelas interagem entre si, e dessa maneira acaba criando mais tabelas como a de "entrada" que
+   nasce da relação entre a tabela "funcionario" e "produtos" por exemplo, além do tipo que cada atributo do DER terá na modelagem física (varchar, char, date, entre outros).
 
-4. Modelagem Física
+5. Modelagem Física
 
      Será utilizado o Modelo Lógico para entender quais vão ser os valores e as estruturas para fazer os comandos que criaram as tabelas no banco de dados.
 
@@ -73,5 +73,6 @@
     FOREIGN KEY (id_fornecedor) REFERENCES papelaria.fornecedor(id_fornecedor)
   );
 
-  
-  [CRUD.sql](https://github.com/user-attachments/files/24018689/CRUD.sql)
+[Criando_Tabelas.txt](https://github.com/user-attachments/files/24018699/Criando_Tabelas.txt)
+
+
